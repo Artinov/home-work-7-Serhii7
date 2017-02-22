@@ -2,11 +2,150 @@
 <html>
 <head>
 	<title>Home work 7</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./fonta/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./vendor/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-
+	<div class="side_bar">
+		<div class="navbar navig navbar-inverse navbar-static-top">	
+			<div class="container">	
+				<a href="./index.html" class="navbar-brand">Start Bootstrap</a>	
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target =".nav_header_collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class = "collapse navbar-collapse nav_header_collapse">	
+					<ul class = "nav navbar-nav navbar-right">
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact_me">Contacts</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+		<div class="container">
+			<div class="row block_img">
+				<div class="col-md-12">
+					<img src="images/img_profile.png">
+					<div class="larger_headline">Start bootstrap</div>
+					<div class="star"><span></span><span class ="glyphicon glyphicon-star"></span><span></span></div>
+					<div class="subscribe">Web Developer - Graphic Artist - User Experience Designer</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id = "portfolio" class="porfolio">
+		<div class="container">
+			<div class="row"><div class="col-lg-12 text-center portfolio_headline">portfolio</div></div>
+			<div class="star"><span></span><span class ="glyphicon glyphicon-star"></span><span></span></div>
+			<div class="row">
+				<div class="col-lg-4"><a href="#"><img src="images/portfolio_cabin.png"></a></div>
+				<div class="col-lg-4"><a href="#"><img src="images/portfolio_cake.png"></a></div>
+				<div class="col-lg-4"><a href="#"><img src="images/portfolio_circus.png"></a></div>
+				<div class="col-lg-4"><a href="#"><img src="images/portfolio_game.png"></a></div>
+				<div class="col-lg-4"><a href="#"><img src="images/portfolio_safe.png"></a></div>
+				<div class="col-lg-4"><a href="#"><img src="images/portfolio_submarine.png"></a></div>
+			</div>
+		</div>
+	</div>
+	<div id ="about" class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center title_about">about</div>
+				<div class="star"><span></span><span class ="glyphicon glyphicon-star"></span><span></span></div>
+			</div>
+			<div class="row text_about">
+				<div class="col-lg-4 col-lg-offset-2">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+				<div class="col-lg-4">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem velit, hic nisi adipisci maiores fugiat impedit eaque magnam delectus ad, aut. Ut in totam, deleniti nostrum laudantium amet voluptatem dignissimos.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<a href="#" class = "btn_down"><span class = " icon_download glyphicon glyphicon-download-alt"></span>Download Theme</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id = "contact_me" class="contact_me">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center portfolio_headline">
+					Contact me
+				</div>
+			</div>
+					<div class="star"><span></span><span class ="glyphicon glyphicon-star"></span><span></span></div>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<form action="action.php" method="post">
+						<input type="text" name="name" placeholder="Name" >
+						<input type="email" name="mail" placeholder="Email Addrss">
+						<input type="tel" name="tel" placeholder="Phone Number">
+						<textarea class = "textarea" placeholder="Message"></textarea>
+						<input type="submit" class ="submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="title">
+						location
+					</div>
+					<div class="text_footer">
+						3481 Melrose Place</br>
+						Beverly Hills,CA 90210
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="title">
+						about frelancer
+					</div>
+					<div class="social_links">
+						<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						<a href=""><i class="fa fa-fw fa-twitter aria-hidden="true""></i></a>
+						<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+					</div>
+				</div>					
+				<div class="col-lg-4">
+					<div class="title">
+						around the web
+					</div>
+					<div class="text_footer">
+						Freelance is a fre to use, open sourse Bootstrap theme created by <a href = '#'>Start Bootstrap</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						Copyright &copy; Your website 2017
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src = "https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script type="text/javascript" src="./vendor/js/bootstrap.js"></script>
 </body>
 </html>
